@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T01:38:54.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.4.0" etag="xuwOBARBQeZRkYKUOrC1" type="github"><diagram id="2ebUjBUpow4gDjzQdCSO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-25T01:53:07.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3nGX_zuRdCom18bGzYl_" version="20.4.0" type="github">
+  <diagram id="2ebUjBUpow4gDjzQdCSO" name="第 1 页">
+    <mxGraphModel dx="1002" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-1" value="待支付" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QhRJAr5Qr2hf3Huji9IQ-4" target="QhRJAr5Qr2hf3Huji9IQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QhRJAr5Qr2hf3Huji9IQ-4" target="QhRJAr5Qr2hf3Huji9IQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-4" value="一次进件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="QhRJAr5Qr2hf3Huji9IQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="210" as="sourcePoint" />
+            <mxPoint x="200" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-8" value="信息补充" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QhRJAr5Qr2hf3Huji9IQ-10" target="QhRJAr5Qr2hf3Huji9IQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-10" value="合同模板上传" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QhRJAr5Qr2hf3Huji9IQ-13" target="QhRJAr5Qr2hf3Huji9IQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-13" value="合同签署状态查询" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-15" value="合同下载" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhRJAr5Qr2hf3Huji9IQ-17" value="签署完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
