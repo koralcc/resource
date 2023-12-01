@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T08:55:42.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="EKrGi-iXfEdGlRaVAiPu" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T09:02:53.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="TAirKKil9SgorWDbVd23" version="22.1.5" type="github">
   <diagram name="第 1 页" id="iQ_usFgtPqKP_RYvm1IJ">
     <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="Ut30w5_9yVYEiOyrPQ8h-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ut30w5_9yVYEiOyrPQ8h-1" target="Ut30w5_9yVYEiOyrPQ8h-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ut30w5_9yVYEiOyrPQ8h-1" value="线程一&lt;br&gt;（可以是跨进程）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+        <mxCell id="Ut30w5_9yVYEiOyrPQ8h-1" value="线程一&lt;br&gt;（可以是跨进程）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ut30w5_9yVYEiOyrPQ8h-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ut30w5_9yVYEiOyrPQ8h-2" target="Ut30w5_9yVYEiOyrPQ8h-13" edge="1">
@@ -39,7 +39,7 @@
         <mxCell id="Ut30w5_9yVYEiOyrPQ8h-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ut30w5_9yVYEiOyrPQ8h-4" target="Ut30w5_9yVYEiOyrPQ8h-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ut30w5_9yVYEiOyrPQ8h-4" value="线程一" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+        <mxCell id="Ut30w5_9yVYEiOyrPQ8h-4" value="线程一" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="200" y="280" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ut30w5_9yVYEiOyrPQ8h-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ut30w5_9yVYEiOyrPQ8h-13" target="Ut30w5_9yVYEiOyrPQ8h-13" edge="1">
@@ -80,6 +80,38 @@
         </mxCell>
         <mxCell id="o1KPP4Mogv6wumGw7es5-5" value="lock():有这个过程；&lt;br&gt;tryLock();没有这个过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="310" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o1KPP4Mogv6wumGw7es5-7" target="o1KPP4Mogv6wumGw7es5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o1KPP4Mogv6wumGw7es5-7" target="o1KPP4Mogv6wumGw7es5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-23" value="执行lua脚本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="o1KPP4Mogv6wumGw7es5-22">
+          <mxGeometry x="-0.7067" y="1" relative="1" as="geometry">
+            <mxPoint x="22" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-7" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;根据hash算法选择一个节点&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="580" y="25" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-12" value="Master" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="755" y="60" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-16" value="Slave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="820" y="60" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-17" value="Master" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="755" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-18" value="Slave" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="820" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o1KPP4Mogv6wumGw7es5-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="o1KPP4Mogv6wumGw7es5-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="120" as="sourcePoint" />
+            <mxPoint x="630" y="70" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
