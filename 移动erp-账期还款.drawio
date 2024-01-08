@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T02:23:09.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IjA4Hew4gIJkVmaMj6U1" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T08:47:13.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="a-rTxnuzmj7mvf7PIfdo" version="22.1.16" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
-    <mxGraphModel dx="1249" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1199" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-76" value="&lt;b&gt;redis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1040" width="90" height="30" as="geometry" />
+          <mxGeometry x="650" y="1030" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="300" width="30" height="60" as="geometry" />
@@ -113,7 +113,7 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-26">
           <mxGeometry y="46" width="560" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-27" value="一个客户多个户头的情况&lt;br&gt;① 小于50(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，前端一次返回50条。&lt;br&gt;&lt;br&gt;② 大于50个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条，开独立线程读取下一页并存入redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;后端响应业务数据列表。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-26">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-27" value="一个客户多个户头的情况&lt;br&gt;① 小于50(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，前端一次返回50条。&lt;br&gt;&lt;br&gt;② 大于50个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条，开独立线程读取下一页并存入redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;后端响应业务数据列表。currentNum，hasNextPage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-26">
           <mxGeometry x="10" y="57.49999999999999" width="550" height="161" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-33" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -128,7 +128,7 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-29">
           <mxGeometry y="40" width="560" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-32" value="&lt;br&gt;一个业务员多个客户的情况&lt;br&gt;按照一个客户一批进行调用和返回。&lt;br&gt;&lt;br&gt;前端传参：pageNum，pageSize，ziyCode&lt;br&gt;后端响应业务数据列表。&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-29">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-32" value="&lt;br&gt;一个业务员多个客户的情况&lt;br&gt;按照一个客户一批进行调用和返回。&lt;br&gt;先按业务员zipCode获取该业务员所有的客户(查集中库)，然后查询客户下面的所有户头(查集中库)，户头组成一批返回给前端。&lt;font color=&quot;#ff9933&quot;&gt;todo：按客户编码和名字搜索条件需要加上&lt;/font&gt;&lt;br&gt;&lt;br&gt;前端传参：pageNum，ziyCode&lt;br&gt;后端响应业务数据列表。currentNum，hasNextPage，data&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-29">
           <mxGeometry x="10" y="50" width="550" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-50" value="key=myPay:list:currentUser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -138,7 +138,7 @@
           <mxGeometry x="810" y="770" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-60" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="980" width="560" height="230" as="geometry" />
+          <mxGeometry x="20" y="970" width="560" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-61" value="" style="group" vertex="1" connectable="0" parent="gqGO8S_ijtVeU8LpyEHo-60">
           <mxGeometry width="560" height="229.99999999999997" as="geometry" />
@@ -149,44 +149,105 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-61">
           <mxGeometry y="46" width="560" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-64" value="一个客户多个户头的情况&lt;br&gt;① 小于50(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，按前端参数进行返回对应数据，并将其他页存到redis。&lt;br&gt;&lt;br&gt;② 大于50个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条，按前端参数进行返回对应数据量数据，并开启另个任务读取下一页到redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，pageSize，newGroupCustNo，branchId&lt;br&gt;后端响应业务数据列表。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-61">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-64" value="一个客户多个户头的情况&lt;br&gt;① 小于50(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，按前端参数进行返回对应数据，并将其他页存到redis。&lt;br&gt;&lt;br&gt;② 大于50个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条，按前端参数进行返回对应数据量数据，并开启另个任务读取下一页到redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;后端响应业务数据列表。currentNum，hasNextPage，data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gqGO8S_ijtVeU8LpyEHo-61">
           <mxGeometry x="10" y="57.49999999999999" width="550" height="161" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-65" value="key=myPay:list:currentUser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1070" width="160" height="100" as="geometry" />
+          <mxGeometry x="650" y="1060" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="1070" width="230" height="100" as="geometry" />
+          <mxGeometry x="830" y="1060" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-67" value="key1=page2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1080" width="100" height="20" as="geometry" />
+          <mxGeometry x="840" y="1094.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-68" value="value1=page2Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1080" width="110" height="20" as="geometry" />
+          <mxGeometry x="940" y="1094.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-69" value="key2=page3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1100" width="100" height="20" as="geometry" />
+          <mxGeometry x="840" y="1114.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-70" value="value2=page3Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1100" width="110" height="20" as="geometry" />
+          <mxGeometry x="940" y="1114.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-71" value="key3=page4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1120" width="100" height="20" as="geometry" />
+          <mxGeometry x="840" y="1134.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-72" value="value3=page4Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1120" width="110" height="20" as="geometry" />
+          <mxGeometry x="940" y="1134.5" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-74" value="key=currentUser-custId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1350" width="165" height="100" as="geometry" />
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-74" value="key=currentUser-custId-condition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1340" width="185" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-75" value="value=page2Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="825" y="1350" width="230" height="100" as="geometry" />
+          <mxGeometry x="835" y="1340" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-77" value="&lt;b&gt;redis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1320" width="90" height="30" as="geometry" />
+          <mxGeometry x="650" y="1310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-78" value="&lt;b&gt;redis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="650" y="740" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-80" value="汇付，千6千2 ，协议既可以是用户也可以是九州通公司" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1580" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-81" value="客户维度，分公司(这个维度)属性确定回款账户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1610" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqGO8S_ijtVeU8LpyEHo-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-83" value="controller" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1780" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gqGO8S_ijtVeU8LpyEHo-84" target="gqGO8S_ijtVeU8LpyEHo-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-84" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1770" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gqGO8S_ijtVeU8LpyEHo-90" target="gqGO8S_ijtVeU8LpyEHo-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-90" value="service" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1780" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gqGO8S_ijtVeU8LpyEHo-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-91" value="repository" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1780" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-93" value="mapper" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1720" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-95" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1760" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-96" value="JPA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1820" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-97" value="mybatis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1680" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-98" value="&lt;font color=&quot;#99004d&quot;&gt;expireTime&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="1090" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-99" value="&lt;font color=&quot;#99004d&quot;&gt;expireTime&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="1110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-100" value="&lt;font color=&quot;#99004d&quot;&gt;expireTime&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="1129" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-106" value="key0=stores" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1074.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-107" value="value0=100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1074.5" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
