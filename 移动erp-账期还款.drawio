@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T03:05:40.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VKd3YZ3jK4NPeauhFkxD" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T03:08:04.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jSH8bM7Rc9TySTyL-09q" version="22.1.17" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
     <mxGraphModel dx="1221" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,6 +269,9 @@
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-10" value="value1=100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="987.5" y="1380" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M1unlP2csWILqM62MqzR-14" value="兜底逻辑：查找这个key的大小&lt;br&gt;（memory usag）如果太大就直接查数据库" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="638.75" y="1480" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
