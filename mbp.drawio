@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T03:29:46.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.17" etag="3-NEnx6mG8RkMkOnrJlh" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T03:29:55.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Sp2qlJjFpAZeYQ0-W-CI" version="22.1.17" type="github">
   <diagram name="第 1 页" id="hitQ557934wSpYfua57N">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cIx-faLkfHjQOtFbOFxc-1" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//mybatis&lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;默认去掉表前缀&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;tb_&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//&lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;可以通过设置&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;@TableName(value = &quot;TB_COMMON_CUST&quot;, keepGlobalPrefix = true)&lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;来消除这个影响&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;·&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//mybatisplus&lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;默认将驼峰命令转成下划线&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//1.&lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;可以设置&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;@TableField(&quot;businessId&quot;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//2.&lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;可以配置取消驼峰命名转&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//mybatis-plus:&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//        configuration:&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;//        map-underscore-to-camel-case: false&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="560" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
