@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T03:22:09.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zPZbF-jaQy_8zO2HpPqa" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:17:33.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5H1h1J3zLvQQIQ34ito5" version="22.1.18" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
-    <mxGraphModel dx="2048" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1285" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,11 +273,11 @@
         <mxCell id="M1unlP2csWILqM62MqzR-14" value="兜底逻辑：查找这个key的大小&lt;br&gt;（memory usag）如果太大就直接查数据库" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="638.75" y="1480" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="35" y="1948" width="50" height="30" as="geometry" />
+        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-3" value="回款流水表&amp;nbsp; &amp;nbsp;流水号，基码，branchid，支付方式，支付状态，支付总额&lt;br&gt;回款流水明细 流水号，custNo，ouId，usageId，金额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1850" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-3" value="支付流水表&amp;nbsp; &amp;nbsp;支付方式，支付状态&lt;br&gt;支付流水明细" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="2120" width="200" height="40" as="geometry" />
+        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-27" value="滚动还款，应回款日期与单据有关，一个户头下面可能会有多个单据；&lt;br&gt;固定日期还款：这个可以确定" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1930" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
