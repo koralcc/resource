@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T10:17:33.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5H1h1J3zLvQQIQ34ito5" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T02:58:19.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="w1ibVDRrWjnhprlMypWU" version="22.1.18" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
-    <mxGraphModel dx="1285" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M1unlP2csWILqM62MqzR-12" value="expireTIme = 2m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="1405" width="110" height="30" as="geometry" />
+          <mxGeometry x="1115" y="1185" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-1" value="expireTIme = 2m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="1134.5" width="110" height="30" as="geometry" />
+          <mxGeometry x="1115" y="914.5" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-77" value="&lt;b&gt;redis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="637.5" y="1340" width="90" height="30" as="geometry" />
+          <mxGeometry x="637.5" y="1120" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-76" value="&lt;b&gt;redis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="637.5" y="1070" width="90" height="30" as="geometry" />
+          <mxGeometry x="637.5" y="850" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="300" width="30" height="60" as="geometry" />
@@ -73,14 +73,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gqGO8S_ijtVeU8LpyEHo-10" target="gqGO8S_ijtVeU8LpyEHo-5" edge="1">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="gqGO8S_ijtVeU8LpyEHo-10" target="gqGO8S_ijtVeU8LpyEHo-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="280" y="553" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-14" value="第一次预存缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gqGO8S_ijtVeU8LpyEHo-13" vertex="1" connectable="0">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-14" value="预加载" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gqGO8S_ijtVeU8LpyEHo-13" vertex="1" connectable="0">
           <mxGeometry x="-0.3118" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -110,23 +110,8 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-19" value="第二次查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="200" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-25" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="680" width="560" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-26" value="" style="group" parent="gqGO8S_ijtVeU8LpyEHo-25" vertex="1" connectable="0">
-          <mxGeometry width="560" height="229.99999999999997" as="geometry" />
-        </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-20" value="&lt;b&gt;下游客户端-我的回款-账期回款-列表1&lt;br&gt;&lt;/b&gt;&lt;br&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-26" vertex="1">
-          <mxGeometry width="200" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="gqGO8S_ijtVeU8LpyEHo-26" vertex="1">
-          <mxGeometry y="46" width="560" height="184" as="geometry" />
-        </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-27" value="一个客户多个户头的情况&lt;br&gt;① 小于50(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，前端一次返回50条。&lt;br&gt;&lt;br&gt;② 大于50个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条，开独立线程读取下一页并存入redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;后端响应业务数据列表。currentNum，hasNextPage" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-26" vertex="1">
-          <mxGeometry x="10" y="57.49999999999999" width="550" height="161" as="geometry" />
-        </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-33" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="1260" width="560" height="210" as="geometry" />
+          <mxGeometry x="20" y="1040" width="560" height="210" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-30" value="&lt;b&gt;业务员端-我的业绩-应收金额统计/逾期情况统计&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-33" vertex="1">
           <mxGeometry width="280" height="60" as="geometry" />
@@ -140,14 +125,8 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-32" value="&lt;br&gt;一个业务员多个客户的情况&lt;br&gt;查询erp库业务员下的客户户头总数，然后按照回款列表的预加载逻辑性进行，预加载返回给前端。&lt;br&gt;&lt;br&gt;前端传参：pageNum，ziyCode&lt;br&gt;响应：currentPage，hasNextPage，data&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-29" vertex="1">
           <mxGeometry x="10" y="50" width="550" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-50" value="key=myPay:list:currentUser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="770" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-51" value="value=page2Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="770" width="230" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-60" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="970" width="560" height="230" as="geometry" />
+          <mxGeometry x="20" y="750" width="560" height="230" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-61" value="" style="group" parent="gqGO8S_ijtVeU8LpyEHo-60" vertex="1" connectable="0">
           <mxGeometry width="560" height="229.99999999999997" as="geometry" />
@@ -158,41 +137,38 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="gqGO8S_ijtVeU8LpyEHo-61" vertex="1">
           <mxGeometry y="46" width="560" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-64" value="一个客户多个户头的情况&lt;br&gt;① 小于50(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，按前端参数进行返回对应数据。&lt;br&gt;&lt;br&gt;② 大于50个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条(多线程)，按前端参数进行返回对应数据量数据，并开启另个任务读取下一页到redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;响应：currentPage，hasNextPage，data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-61" vertex="1">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-64" value="一个客户多个户头的情况&lt;br&gt;① 小于20(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，按前端参数进行返回对应数据。&lt;br&gt;&lt;br&gt;② 大于20个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条(多线程)，按前端参数进行返回对应数据量数据，并开启另个任务读取下一页到redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;响应：currentPage，hasNextPage，data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-61" vertex="1">
           <mxGeometry x="10" y="57.49999999999999" width="550" height="161" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-65" value="key=myPay:list:newGroupCustNo:branchId" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="637.5" y="1100" width="250" height="100" as="geometry" />
+          <mxGeometry x="637.5" y="880" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="882.5" y="1100" width="237.5" height="100" as="geometry" />
+          <mxGeometry x="882.5" y="880" width="237.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-67" value="key2=page1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="892.5" y="1134.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="892.5" y="914.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-68" value="value2=page1Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="992.5" y="1134.5" width="110" height="20" as="geometry" />
+          <mxGeometry x="992.5" y="914.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-69" value="key3=page2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="892.5" y="1154.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="892.5" y="934.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-70" value="value3=page2Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="992.5" y="1154.5" width="110" height="20" as="geometry" />
+          <mxGeometry x="992.5" y="934.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-71" value="key4=page3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="892.5" y="1174.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="892.5" y="954.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-72" value="value4=page3Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="992.5" y="1174.5" width="110" height="20" as="geometry" />
+          <mxGeometry x="992.5" y="954.5" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-74" value="key=myOp:sum:ziyCode:custNo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="637.5" y="1370" width="252.5" height="100" as="geometry" />
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-74" value="key=myOp:sum:ziyCode:custNo:custName" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="637.5" y="1150" width="252.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-75" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="882.5" y="1370" width="232.5" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-78" value="&lt;b&gt;redis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="650" y="740" width="90" height="30" as="geometry" />
+          <mxGeometry x="882.5" y="1150" width="232.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-80" value="汇付，千6千2 ，协议既可以是用户也可以是九州通公司" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="1560" width="320" height="30" as="geometry" />
@@ -241,42 +217,42 @@
           <mxGeometry x="370" y="1640" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-106" value="key1=count" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="892.5" y="1114.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="892.5" y="894.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-107" value="value1=100" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="992.5" y="1114.5" width="110" height="20" as="geometry" />
+          <mxGeometry x="992.5" y="894.5" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-3" value="key2=page1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="887.5" y="1400" width="100" height="20" as="geometry" />
+          <mxGeometry x="887.5" y="1180" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-4" value="value2=page1Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="987.5" y="1400" width="110" height="20" as="geometry" />
+          <mxGeometry x="987.5" y="1180" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-5" value="key3=page2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="887.5" y="1420" width="100" height="20" as="geometry" />
+          <mxGeometry x="887.5" y="1200" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-6" value="value3=page2Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="987.5" y="1420" width="110" height="20" as="geometry" />
+          <mxGeometry x="987.5" y="1200" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-7" value="key4=page3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="887.5" y="1440" width="100" height="20" as="geometry" />
+          <mxGeometry x="887.5" y="1220" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-8" value="value4=page3Data" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="987.5" y="1440" width="110" height="20" as="geometry" />
+          <mxGeometry x="987.5" y="1220" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-9" value="key1=count" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="887.5" y="1380" width="100" height="20" as="geometry" />
+          <mxGeometry x="887.5" y="1160" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-10" value="value1=100" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="987.5" y="1380" width="110" height="20" as="geometry" />
+          <mxGeometry x="987.5" y="1160" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="M1unlP2csWILqM62MqzR-14" value="兜底逻辑：查找这个key的大小&lt;br&gt;（memory usag）如果太大就直接查数据库" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="638.75" y="1480" width="250" height="40" as="geometry" />
+          <mxGeometry x="638.75" y="1260" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-3" value="回款流水表&amp;nbsp; &amp;nbsp;流水号，基码，branchid，支付方式，支付状态，支付总额&lt;br&gt;回款流水明细 流水号，custNo，ouId，usageId，金额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-3" value="回款流水表&amp;nbsp; &amp;nbsp;流水号，基码，branchid，支付方式，支付状态，支付总额&lt;br&gt;回款流水明细 流水号，custNo，ouId，usageId，金额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="1850" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-27" value="滚动还款，应回款日期与单据有关，一个户头下面可能会有多个单据；&lt;br&gt;固定日期还款：这个可以确定" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9ZYc1-NgtFmLDcZKwvGN-27" value="滚动还款，应回款日期与单据有关，一个户头下面可能会有多个单据；&lt;br&gt;固定日期还款：这个可以确定" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="1930" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
