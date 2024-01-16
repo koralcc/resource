@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T02:30:00.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bjv1g4VF6zE4G_l1zYoy" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T02:31:27.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HEc1HNx3Iw1bFigKY_kq" version="22.1.18" type="github">
   <diagram name="第 1 页" id="ARMjeT0RUqKwLvwRUQr0">
     <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
         <mxCell id="jhSxaOH5ONNa692QC93M-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jhSxaOH5ONNa692QC93M-20" target="jhSxaOH5ONNa692QC93M-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jhSxaOH5ONNa692QC93M-20" value="预加载" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jhSxaOH5ONNa692QC93M-20" value="预加载" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="330.63" y="480" width="68.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jhSxaOH5ONNa692QC93M-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jhSxaOH5ONNa692QC93M-39" target="jhSxaOH5ONNa692QC93M-42" edge="1">
@@ -120,6 +120,9 @@
         </mxCell>
         <mxCell id="svU6l3ukT8-pbaPzspIF-1" value="登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="730" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svU6l3ukT8-pbaPzspIF-2" value="回款，登录到生成流水流程图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
