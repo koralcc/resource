@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T03:00:43.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TXabQEj0M09nIwbwzbxH" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T05:41:35.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3D_IhwSKa6iESTIqdyFC" version="22.1.18" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
     <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,7 +137,7 @@
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="gqGO8S_ijtVeU8LpyEHo-61" vertex="1">
           <mxGeometry y="46" width="560" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="gqGO8S_ijtVeU8LpyEHo-64" value="一个客户多个户头的情况&lt;br&gt;① 小于20(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取50条(多线程)，按前端参数进行返回对应数据。&lt;br&gt;&lt;br&gt;② 大于20个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取50条(多线程)，按前端参数进行返回对应数据量数据，并开启另个任务读取下一页到redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;响应：currentPage，hasNextPage，data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-61" vertex="1">
+        <mxCell id="gqGO8S_ijtVeU8LpyEHo-64" value="一个客户多个户头的情况&lt;br&gt;① 小于20(依情况配置)个户头：需要将所有户头信息读取到内存进行排序汇总；&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;一次全部读取20条(多线程)，按前端参数进行返回对应数据。&lt;br&gt;&lt;br&gt;② 大于20个户头：做分页查询，每次读取当前页和下一页数据，当前页直接返回前端，下一页存reids。&lt;br&gt;&amp;nbsp; &amp;nbsp; 一次读取20条(多线程)，按前端参数进行返回对应数据量数据，并开启另个任务读取下一页到redis。&lt;br&gt;&lt;br&gt;前端传参：pageNum，newGroupCustNo，branchId&lt;br&gt;响应：currentPage，hasNextPage，data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="gqGO8S_ijtVeU8LpyEHo-61" vertex="1">
           <mxGeometry x="10" y="57.49999999999999" width="550" height="161" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-65" value="key=myPay:list:newGroupCustNo:branchId" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
