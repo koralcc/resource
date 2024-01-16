@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T03:00:19.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_lsrMYBJRDF7D6vPABC_" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:01:19.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iz1WPUQhMXPdQGo50Lfo" version="22.1.18" type="github">
   <diagram name="第 1 页" id="8IYmLdTwDIqv6iiUNqnJ">
     <mxGraphModel dx="2048" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="ZCZy4DsMgrWmN7m3GTes-7" value="&lt;b&gt;下游客户端-立即还款-账期回款-列表&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZCZy4DsMgrWmN7m3GTes-6">
           <mxGeometry width="200" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="ZCZy4DsMgrWmN7m3GTes-8" value="①.流水表和明细表的增删改查；&lt;br&gt;②.流水明细表的校验&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 单项金额不能超10&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 总金额不够扣减提醒(不限制支付)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZCZy4DsMgrWmN7m3GTes-6">
+        <mxCell id="ZCZy4DsMgrWmN7m3GTes-8" value="①.流水表和明细表的增删改查；&lt;br&gt;②.流水明细表的校验&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 单项金额不能超10；&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- 总金额不够扣减提醒(不限制支付)。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ZCZy4DsMgrWmN7m3GTes-6">
           <mxGeometry y="46" width="560" height="184" as="geometry" />
         </mxCell>
       </root>
