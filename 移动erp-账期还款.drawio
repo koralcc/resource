@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T05:41:35.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3D_IhwSKa6iESTIqdyFC" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T07:32:47.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Gx8VEp7H9TCEhagycal6" version="22.1.18" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
     <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -254,6 +254,9 @@
         </mxCell>
         <mxCell id="9ZYc1-NgtFmLDcZKwvGN-27" value="滚动还款，应回款日期与单据有关，一个户头下面可能会有多个单据；&lt;br&gt;固定日期还款：这个可以确定" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="2780" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xifteia1oYGUEBwJenLp-1" value="1.erp 提供获取客户还款日期的sql；&lt;br&gt;2.erp 提供获取客户资信信息的批量接口(根据NEWGROUCUSTNO获取)&lt;span style=&quot;&quot;&gt;&lt;/span&gt;还款日，授信类型(定点还款、滚动还款)&amp;nbsp; &amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;原接口地址：&lt;/span&gt;&lt;/span&gt;/api/jzzc/query/GetCustCredit?branchId=%s&amp;amp;custId=%s&amp;amp;ouId=%s&amp;amp;usageId=%s；&lt;br&gt;3.erp 获取客户授信接口添加两个字段 还款日，授信类型(定点还款、滚动还款) 接口地址：/api/jzzc/query/GetCustCredit?branchId=%s&amp;amp;custId=%s&amp;amp;ouId=%s&amp;amp;usageId=%s。" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1390" width="1155" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
