@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T02:58:19.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="w1ibVDRrWjnhprlMypWU" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:00:43.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TXabQEj0M09nIwbwzbxH" version="22.1.18" type="github">
   <diagram name="第 1 页" id="prlNxFJ4VGk4BH8smg3V">
     <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,50 +171,50 @@
           <mxGeometry x="882.5" y="1150" width="232.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-80" value="汇付，千6千2 ，协议既可以是用户也可以是九州通公司" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="20" y="1560" width="320" height="30" as="geometry" />
+          <mxGeometry x="20" y="2410" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-81" value="客户维度，分公司(这个维度)属性确定回款账户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="25" y="1590" width="270" height="30" as="geometry" />
+          <mxGeometry x="25" y="2440" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqGO8S_ijtVeU8LpyEHo-83" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="1760" as="targetPoint" />
+            <mxPoint x="240" y="2610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-83" value="controller" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1740" width="60" height="40" as="geometry" />
+          <mxGeometry x="130" y="2590" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gqGO8S_ijtVeU8LpyEHo-84" target="gqGO8S_ijtVeU8LpyEHo-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-84" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1730" width="30" height="60" as="geometry" />
+          <mxGeometry x="30" y="2580" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gqGO8S_ijtVeU8LpyEHo-90" target="gqGO8S_ijtVeU8LpyEHo-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-90" value="service" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1740" width="60" height="40" as="geometry" />
+          <mxGeometry x="240" y="2590" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gqGO8S_ijtVeU8LpyEHo-91" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="1760" as="targetPoint" />
+            <mxPoint x="470" y="2610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-91" value="repository" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1740" width="60" height="40" as="geometry" />
+          <mxGeometry x="370" y="2590" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-93" value="mapper" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1680" width="60" height="40" as="geometry" />
+          <mxGeometry x="370" y="2530" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-95" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1720" width="60" height="80" as="geometry" />
+          <mxGeometry x="470" y="2570" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-96" value="JPA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1780" width="40" height="30" as="geometry" />
+          <mxGeometry x="370" y="2630" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-97" value="mybatis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1640" width="40" height="40" as="geometry" />
+          <mxGeometry x="370" y="2490" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gqGO8S_ijtVeU8LpyEHo-106" value="key1=count" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="892.5" y="894.5" width="100" height="20" as="geometry" />
@@ -250,10 +250,10 @@
           <mxGeometry x="638.75" y="1260" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9ZYc1-NgtFmLDcZKwvGN-3" value="回款流水表&amp;nbsp; &amp;nbsp;流水号，基码，branchid，支付方式，支付状态，支付总额&lt;br&gt;回款流水明细 流水号，custNo，ouId，usageId，金额" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1850" width="400" height="40" as="geometry" />
+          <mxGeometry x="30" y="2700" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9ZYc1-NgtFmLDcZKwvGN-27" value="滚动还款，应回款日期与单据有关，一个户头下面可能会有多个单据；&lt;br&gt;固定日期还款：这个可以确定" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1930" width="400" height="40" as="geometry" />
+          <mxGeometry x="30" y="2780" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
