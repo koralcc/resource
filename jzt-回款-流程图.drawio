@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T02:36:46.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rrDYN5reLnNP0hE_SPZs" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T03:57:33.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="arevcNkI1se1ikkDHMDv" version="22.1.18" type="github">
   <diagram name="第 1 页" id="ARMjeT0RUqKwLvwRUQr0">
     <mxGraphModel dx="1221" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
         <mxCell id="jhSxaOH5ONNa692QC93M-60" value="金额校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="630" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jhSxaOH5ONNa692QC93M-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jhSxaOH5ONNa692QC93M-68" target="jhSxaOH5ONNa692QC93M-88" edge="1">
+        <mxCell id="svU6l3ukT8-pbaPzspIF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jhSxaOH5ONNa692QC93M-68" target="svU6l3ukT8-pbaPzspIF-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jhSxaOH5ONNa692QC93M-68" value="生成交易流水" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -110,10 +110,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jhSxaOH5ONNa692QC93M-88" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="495" y="170" width="70" height="65" as="geometry" />
+          <mxGeometry x="345" y="140" width="70" height="65" as="geometry" />
         </mxCell>
         <mxCell id="svU6l3ukT8-pbaPzspIF-2" value="下游客户端-回款，’登录--生成流水‘流程图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="svU6l3ukT8-pbaPzspIF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="svU6l3ukT8-pbaPzspIF-4" target="svU6l3ukT8-pbaPzspIF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svU6l3ukT8-pbaPzspIF-4" value="支付完成" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svU6l3ukT8-pbaPzspIF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="svU6l3ukT8-pbaPzspIF-10" target="jhSxaOH5ONNa692QC93M-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="svU6l3ukT8-pbaPzspIF-10" value="回写支付信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
